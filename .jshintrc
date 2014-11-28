@@ -1,0 +1,13 @@
+{
+    "bitwise": true,
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": true,
+    "noarg": true,
+    "nonew": true,
+    "plusplus": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "freeze": true
+}
