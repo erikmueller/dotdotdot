@@ -1,0 +1,3 @@
+[alias]
+	lg = log --oneline --abbrev-commit --all --graph --decorate --color
+	lgs = log --oneline --abbrev-commit --all --graph --decorate --color --simplify-by-decoration
