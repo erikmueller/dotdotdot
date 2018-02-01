@@ -1,3 +1,4 @@
 [alias]
-	lg = log --oneline --abbrev-commit --all --graph --decorate --color
-	lgs = log --oneline --abbrev-commit --all --graph --decorate --color --simplify-by-decoration
+  lg = log --oneline --abbrev-commit --all --graph --decorate --color
+  lgs = log --oneline --abbrev-commit --all --graph --decorate --color --simplify-by-decoration
+  fixup = "!f() { TARGET=$(git rev-parse "$1"); git commit --fixup=$TARGET ${@:2} && EDITOR=true git rebase -i --autostash --autosquash $TARGET^; }; f"
